@@ -18,7 +18,7 @@
         // Warning: Using the serviceWorkerLocation option limits the scope of push notifications on your site. See
         // https://js.appboycdn.com/web-sdk/3.5/doc/module-appboy.html#initialize for more details.
         // If in doubt, omit this option and use the default location of /service-worker.js
-        serviceWorkerLocation: document.location.pathname.replace('index.html', 'service-worker.js'),
+        serviceWorkerLocation: document.location.pathname.replace('index.html', './service-worker.js'),
         safariWebsitePushId: 'web.com.braze.sample-build'
       });
       appboy.display.automaticallyShowNewInAppMessages();
